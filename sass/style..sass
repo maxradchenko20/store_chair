@@ -1,0 +1,309 @@
+*
+   font-family: 'Roboto', sans-serif
+
+body
+   background-color: #EFEFEF
+
+.wrapper
+   max-width: 1110px
+   padding: 0 15px
+   margin: 0 auto
+.nav
+   display: flex
+   list-style-type: none
+   justify-content: center
+   padding-top: 8px
+   &>li
+      margin: 0 10px
+      &>a
+         text-decoration: none
+         color: black
+         font-size: 14px
+         font-weight: 400
+.header
+   background-color: white
+
+.header-top
+   display: flex
+   justify-content: space-between
+   align-items: center
+   padding: 0 0
+   margin-left: 97px
+
+.logo
+   color: #66C05D
+   font-size: 36px
+   font-weight: 700
+   display: flex
+   align-items: center
+.logo-img
+   display: block
+   width: 80px
+   height: 80px
+   background-image: url("../img/icons/logo1.svg")
+   margin-right: 10px
+.subheader-info
+   margin-right: 56px
+   &>a
+      font-size: 16px
+      text-decoration: none
+      color: black
+      margin-right: 10px
+      &:hover
+         text-decoration: underline
+   &>button
+      width: 170px
+      height: 40px
+      border-radius: 20px
+      font-size: 14px
+      font-weight: 400
+      border: 2px solid green
+.nav-bottom
+   display: flex
+   justify-content: space-between
+   list-style-type: none
+   padding-left: 0
+   margin-top: 10px
+   margin-bottom: 0
+   padding-bottom: 10px
+   &>li>a
+      font-size: 16px
+      color: black
+      font-weight: 400
+hr
+   border: none
+   background-color: gray
+   height: 1px
+
+.banner
+   min-height: 604px
+   background-image: url("../img/bg.png")
+   background-repeat: no-repeat
+   background-position: center center
+   color: white
+.title
+   padding-top: 173px
+   font-size: 48px
+   font-weight: 700
+
+.btn
+   color: white
+   text-decoration: none
+   border: 2px solid white
+   border-radius: 20px
+   padding: 12px 26px
+   &:hover
+      border: 2px solid black
+      background: white
+      color: black
+      text-decoration: none
+
+.banner p
+   min-width: 315px
+   font-size: 14px
+   margin-bottom: 30px
+.banner a
+
+.midle
+   max-height: 954px
+   background: #EFEFEF
+h2
+   padding-top: 83px
+   font-weight: 700
+   font-size: 24px
+   text-transform: uppercase
+h2:hover
+   font-size: 30px
+   color: red
+   text-align: center
+h2:hover:after
+   content: "!!!"
+   color: red
+   font-size: 40px
+
+h2:hover:before
+   content: "!!!"
+   color: red
+   font-size: 40px
+
+.item
+   display: flex
+   justify-content: space-between
+   margin-top: 38px
+
+   &_info
+      Width: 255px
+      Height: 363px
+      background: white
+      display: flex
+      flex-direction: column
+      &>span
+         text-align: center
+         font-size: 21px
+         font-weight: 700
+         &:hover
+            color: red
+            font-size: 25px
+
+      &>p
+         text-align: center
+         padding-top: 20px
+         font-size: 14px
+         font-weight: 400
+   &_img
+      width: 125px
+      height: 166px
+      display: block
+      margin: 0 auto
+      padding-top: 25px
+      &:hover
+         width: 150px
+         height: 200px
+         transition: 2s
+
+   &_btn
+      display: block
+      margin: 0 auto
+      width: 130px
+      height: 35px
+      margin-top: 20px
+      font-size: 14px
+      font-weight: 400
+      background: green
+      border-radius: 20px
+      &:hover
+         border: 2px solid black
+
+.item_bottom
+   display: flex
+   flex-wrap: wrap
+   justify-content: space-between
+   margin-top: 100px
+   &_bonus
+      width: 530px
+      height: 200px
+      background: #66C05D
+      display: flex
+      justify-content: space-around
+      align-items: center
+
+.info_left
+   text-align: center
+   color: white
+   &>span
+      display: block
+      width: 250px
+      height: 17px
+      font-size: 18px
+      font-weight: 700
+   &>p
+      padding-top: 25px
+      font-size: 14px
+      font-weight: 400
+   &>input
+      display: block
+      width: 225px
+      height: 35px
+      border-radius: 20px
+      margin: 0 auto
+      padding-left: 25px
+      margin-top: 25px
+      &:hover
+         border: 2px solid black
+      &:active
+         border: 2px solid black
+
+.item_bottom_map
+   width: 530px
+   height: 200px
+   background: #66C05D
+   color: white
+.item_left
+   display: flex
+   flex-direction: column
+   margin: 35px 0px 35px 40px
+   &>span
+      width: 250px
+      height: 17px
+      font-size: 18px
+      font-weight: 700
+   &>p
+      width: 141px
+      height: 40px
+      font-weight: 400
+      font-size: 14px
+      padding-top: 25px
+   &>button
+      display: block
+      margin-top: 25px
+      width: 170px
+      height: 35px
+      font-size: 14px
+      font-weight: 400
+      background: #66C05D
+      border: 2px solid white
+      color: white
+      border-radius: 20px
+
+footer
+   margin-top: 130px
+   background-color: white
+   height: 184px
+.hr
+   width: 100%
+   height: 1px
+   background-color: black
+.footer_items
+   display: flex
+   justify-content: space-between
+   padding-top: 65px
+.footer_icons
+   display: flex
+   justify-content: space-between
+.icons_fa
+   width: 40px
+   height: 40px
+   border: 1px solid #66C05D
+   border-radius: 50%
+   display: flex
+   justify-content: center
+   align-items: center
+   &>a>i
+      font-size: 25px
+.footer_info
+   display: block
+   font-size: 14px
+   font-weight: 400
+   height: 20px
+   padding-top: 10px
+
+.footer_fb
+   width: 300px
+   display: flex
+   justify-content: space-between
+   align-items: center
+   &>button
+      width: 150px
+      height: 40px
+      border: 1px solid #66C05D
+      border-radius: 20px
+      font-size: 14px
+      font-weight: 400
+      &:hover
+         border: 2px solid black
+
+.footer_text
+   font-size: 16px
+   font-weight: 400
+
+.footer_end
+   padding-top: 63px
+   padding-bottom: 20px
+   margin-bottom:
+.footer_descr
+   display: flex
+   justify-content: space-between
+   &>p
+      font-size: 12px
+      font-weight: 400
+      color: #828282
